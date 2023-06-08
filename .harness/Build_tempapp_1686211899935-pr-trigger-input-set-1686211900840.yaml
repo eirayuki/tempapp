@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_tempapp_1686211899935-pr-trigger-input-set
+  identifier: Build_tempapp_1686211899935prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Simple
+  pipeline:
+    identifier: Build_tempapp_1686211899935
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
